@@ -144,17 +144,18 @@ cd Ecom_Project
 
 Here are some screenshots from the live demo of the E-commerce platform:
 
-### **Homepage**
-![Homepage](./client/src/Images/Banner.avif)
+![Page1](client\src\Demo\182747.png)
 
-### **Product Listing Page**
-![Products Page](./client/src/Images/img1.avif)
+![Page2](client\src\Demo\182617.png)
 
-### **Product Details Page**
-![Product Details](./client/src/Images/img3.avif)
+![Page3](client\src\Demo\182814.png)
 
-### **Admin Dashboard**
-![Admin Dashboard](./client/src/Images/img4.avif)
+![Page4](client\src\Demo\182629.png)
+
+![Page5](client\src\Demo\182701.png)
+
+![Page6](client\src\Demo\182737.png)
+
 
 ---
 
@@ -207,4 +208,4 @@ This is a personal project devloped by me and you must not copy this project.
 
 ### **Project By**:  
 **Anmol**  
-[LinkedIn](https://www.linkedin.com/in/anmol) | [GitHub](https://github.com/your-username)
+[LinkedIn](https://www.linkedin.com/in/anmolkhatri04/) | [GitHub](https://github.com/anmol4khatri)
