@@ -144,17 +144,17 @@ cd Ecom_Project
 
 Here are some screenshots from the live demo of the E-commerce platform:
 
-![Page1](client\src\Demo\182747.png)
+![Page1](client/src/Demo/182747.png)
 
-![Page2](client\src\Demo\182617.png)
+![Page2](client/src/Demo/182617.png)
 
-![Page3](client\src\Demo\182814.png)
+![Page3](client/src/Demo/182814.png)
 
-![Page4](client\src\Demo\182629.png)
+![Page4](client/src/Demo/182629.png)
 
-![Page5](client\src\Demo\182701.png)
+![Page5](client/src/Demo/182701.png)
 
-![Page6](client\src\Demo\182737.png)
+![Page6](client/src/Demo/182737.png)
 
 
 ---
