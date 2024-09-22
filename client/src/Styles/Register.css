@@ -1,0 +1,102 @@
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 200px;
+  gap: 50px;
+}
+.registerHeading {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 450px;
+  input {
+    border: 1px solid grey;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+}
+
+.registerPassword {
+  width: 450px;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.1rem;
+  input {
+    width: 90%;
+    border: none;
+  }
+  p {
+    width: 10%;
+    text-align: center;
+  }
+}
+.registerButton {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+  font-size: 1.2rem;
+  background-color: #1a2f27;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.registerButton:hover {
+  transform: scale(1.05);
+}
+.loginRedirect {
+  text-decoration: none;
+  align-self: center;
+  color: black;
+}
+input:focus {
+  outline: none;
+}
+.loginRedirect:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .registerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 100px;
+    gap: 50px;
+  }
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60vw;
+    input {
+      height: 50px;
+      padding: 10px;
+      font-size: 1.1rem;
+      width: 100%;
+    }
+  }
+  .registerPassword {
+    width: 100%;
+    input {
+      height: 50px;
+      padding: 10px;
+      font-size: 1.1rem;
+      width: 100%;
+    }
+  }
+}

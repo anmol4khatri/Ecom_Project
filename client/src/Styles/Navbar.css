@@ -1,0 +1,181 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 50px 10px 50px;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  border-bottom: 1px black solid;
+  z-index: 5;
+}
+.navLogoContainer {
+  flex: 0.1;
+  display: flex;
+  align-items: center;
+  img {
+    height: 80px;
+  }
+}
+.navLinksContainer {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navSignContainer {
+  flex: 0.65;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+}
+.navLogo {
+  font-family: "Instrument Serif", serif;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.navLogoText {
+  font-size: 0.635rem;
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1.05rem;
+}
+.navLink:hover {
+  text-decoration: underline;
+}
+.searchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+  gap: 5px;
+  margin: auto;
+  input {
+    width: 300px;
+    font-size: 1.05rem;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+    border-color: transparent;
+  }
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.navbarLogin {
+  font-size: 1.2rem;
+  display: flex;
+  text-decoration: none;
+}
+.cartIcon {
+  position: relative;
+}
+.cartTotalItems {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  background-color: #1a2f27;
+  border-radius: 50%;
+  color: white;
+  width: 18px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+.loginicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.loginicon:hover {
+  text-decoration: underline;
+}
+.HamburgerIcon {
+  display: none;
+}
+
+/* navSidebar CSS */
+
+.navSidebar {
+  z-index: 10;
+  padding: 15px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: white;
+}
+.SidebarSearchForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+  gap: 5px;
+  margin: auto;
+  input {
+    width: 300px;
+    font-size: 1.05rem;
+    border: none;
+  }
+  input:focus {
+    outline: none;
+    border-color: transparent;
+  }
+  button {
+    border: none;
+    background-color: transparent;
+  }
+}
+.navSidebarSearch {
+  width: 80%;
+}
+.navSidebarLinks {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.HamburgerIconSidebar {
+  align-self: flex-end;
+}
+@media (max-width: 950px) {
+  .searchForm {
+    border: none;
+    display: none;
+  }
+  .navLinksContainer {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-between;
+  }
+  .HamburgerIcon {
+    display: inline;
+  }
+  .navbar {
+    padding: 10px 10px 10px 20px;
+  }
+}

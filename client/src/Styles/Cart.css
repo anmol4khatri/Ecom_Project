@@ -1,0 +1,169 @@
+.cart {
+  min-height: 100vh;
+  padding: 25px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cartOuterContainer {
+  display: flex;
+  gap: 40px;
+}
+.cartContainer {
+  flex: 3;
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h1 {
+    font-weight: 900;
+  }
+}
+.orderContainer {
+  flex: 1;
+  position: sticky;
+  top: 125px;
+  background-color: #1a2f27;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  hr {
+    color: rgb(97, 94, 94);
+  }
+}
+table {
+  text-align: left;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  /* font-weight: bolder; */
+}
+th {
+  font-size: 0.95rem;
+}
+td {
+  font-size: 1.05rem;
+}
+
+.cartproductDetails {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  min-width: 10vw;
+}
+
+.cartProductImg {
+  width: 80px;
+  aspect-ratio: auto;
+  img {
+    width: 100%;
+  }
+}
+.cartProductName {
+  width: 200px;
+  padding-right: 40px;
+}
+.cartProductSize {
+  min-width: 10vw;
+}
+.cartProductQuantity {
+  min-width: 10vw;
+}
+.cartProductPrice {
+  min-width: 10vw;
+}
+.cartDelete {
+  width: 10px;
+}
+.cartDeleteItem {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.cartDeleteIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.continueShopping {
+  align-self: flex-start;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: rgb(41, 41, 41);
+  height: 55px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid rgb(200, 198, 198);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+.backIcon {
+  height: 30px;
+  width: 30px;
+}
+.orderDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 0.9rem;
+  margin: 10px 0px;
+}
+.orderItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orderTotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+.paymentCheckout {
+  height: 46px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  background-color: #ffa500;
+  border: none;
+  border-radius: 5px;
+}
+.paymentCheckout:hover {
+  background-color: #ff8c00;
+  cursor: pointer;
+}
+.couponCode {
+  color: #ecb776;
+}
+.couponCode:hover {
+  color: #db9744;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 1300px) {
+  .cartOuterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  
+}

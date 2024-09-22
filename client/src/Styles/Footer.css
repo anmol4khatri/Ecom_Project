@@ -1,0 +1,90 @@
+.footer {
+  background-color: #1a2f27;
+  color: rgb(209, 209, 209);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 100px 50px;
+  font-size: 13px;
+}
+.footerbrandContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  font-weight: bolder;
+  padding-right: 20px;
+}
+.brandTitle {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+.footerLinksContainer,
+.footerContactContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 1;
+}
+.footerLinksHeading,
+.footerContactHeading {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bolder;
+}
+.footerLinksSubContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerLink {
+  color: white;
+  text-decoration: none;
+}
+.footerContactSubContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerIcon {
+  font-size: 1.5rem;
+}
+.footerContactItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 600px) {
+  .footerLinksContainer {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    padding: 50px 25px;
+  }
+  .brandTitle {
+    flex-direction: column;
+    p {
+      font-size: 1rem;
+    }
+  }
+  .brandDescription {
+    display: none;
+  }
+}
